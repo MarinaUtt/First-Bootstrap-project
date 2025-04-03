@@ -1,0 +1,111 @@
+.img-logo{
+  width: 150px;
+  height: 150px;
+}
+
+.btn-basket{
+  border-color: black;
+  color: black;
+}
+
+.btn-basket:hover{
+  border-color: white;
+  background-color: #716e3a;
+  color: white;
+}
+
+.btn-input{
+  background-color: #716e3a;
+  border-color: black;
+}
+
+.btn-input:hover{
+  background-color: #6a6f5f;
+  border-color: white;
+}
+
+.nav-menu{
+  width: 500px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.slider-btn{
+  background-color: #8baaa4;
+  border-radius: 40%;
+}
+
+.slider-link{
+  text-decoration: none;
+}
+
+.title-slider{
+  font-size: 32px;
+  color: white;
+  width: 100%;
+}
+
+.new-btn{
+  background-color: #8b643d;
+  border-color: white;
+}
+
+.new-btn:hover{
+  background-color: #bd9875;
+  border-color: white;
+}
+
+.album-size{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-style{
+  overflow: hidden;
+}
+
+.col-img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.col-img:hover{
+  transform: scale(1.1);
+}
+
+.card-price-style{
+  font-weight: 700;
+  color: black;
+}
+
+.card-link{
+  text-decoration: none;
+}
+
+.footer-container{
+  background-color: #8baaa4;
+  width: 100vw;
+}
+
+.logo-footer{
+  width: 100px;
+}
+
+.menu-item{
+  font-size: 18px;
+}
+
+@media (min-width: 1200px){
+  .header-flex{
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 570px){
+  .col-img{
+    height: auto;
+  }
+  
+}
